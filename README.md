@@ -1,10 +1,18 @@
-# MOT Metric Inconsistency
+# MOT Metric Comparison
 
-This repo trys to compute multi-object tracking metrics computed by [py-motmetric](https://github.com/cheind/py-motmetrics) and [TrackEval](https://github.com/JonathonLuiten/TrackEval).
+This repo trys to give an example of multi-object tracking metrics computed by [py-motmetric](https://github.com/cheind/py-motmetrics) and [TrackEval](https://github.com/JonathonLuiten/TrackEval).
 
 Ground truth comes from [MOT17](https://motchallenge.net/data/MOT17/), tracking result comes from [ByteTrack](https://motchallenge.net/method/MOT=4809&chl=10). Three sequences from train set are selected to test.
 
 ## Run
+
+Create the environment through `conda`:
+
+```shell
+conda env create -f env.yml
+```
+
+
 
 Get output from [py-motmetric](https://github.com/cheind/py-motmetrics) following documentation [here](https://github.com/cheind/py-motmetrics#motchallenge-compatibility):
 
